@@ -1,0 +1,29 @@
+
+
+.card {
+    width: 400px;
+    box-shadow: 0 4px 20px rgba(100, 81, 13, 0.253);
+    padding: 3rem;
+}
+
+.btn-warning {
+    background-color: #f7a844;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e69c39;
+}
+
+.btn{
+    border-color: black ;
+    background-color: #FFBA00;
+    
+}
+
+.key-icon {
+    width: 70px;
+    height: 70px;
+}
+
+
