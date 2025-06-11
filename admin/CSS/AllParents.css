@@ -1,0 +1,154 @@
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.add-btn {
+    background-color: #6d9773;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #5a7d5f;
+    color: white;
+}
+
+.add-btn i {
+    font-size: 0.9em;
+}
+
+/* Search Section */
+.search-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.search-form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.search-select {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9em;
+    min-width: 150px;
+}
+
+.search-btn {
+    background-color: #0C3B2E;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #0a2f25;
+}
+
+/* Parents Grid */
+.parents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.parent-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.parent-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.parent-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.parent-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.parent-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0C3B2E;
+    margin: 0;
+}
+
+.parent-email, .parent-phone {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+}
+
+/* Children Information */
+.children-info {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.children-count {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: #6d9773;
+    font-weight: 500;
+}
+
+.children-count i {
+    font-size: 1.1em;
+}
+
+.children-names {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+} 
