@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --color1: #07beb8;
+    --color2: #3dccc7;
+    --color3: #68d8d6;
+    --color4: #9ceaef;
+    --color5: #c4fff9;
+
+}
+
+.main_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    width: 30%;
+    background: transparent;
+    background: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.16);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: rgb(89, 89, 194);
+    /* border-radius: 10px; */
+    padding: 20px 20px;
+    display: inline-block;
+    /* position: absolute;
+    align-items: center; */
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.main input {
+    width: 90%;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 90%;
+    height: 35px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgb(82, 82, 148);
+    padding: 5px 5px 1px 1px;
+    margin-bottom: 15px;
+    box-shadow: 0px 10px 15px -3px var(--color3);
+    margin-left: 10px;
+}
+
+.photo_main {
+    text-align: center;
+    /* background-color: violet; */
+    margin-top: 0;
+}
+
+.photo {
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+label {
+    color: black;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+/* button {
+   
+
+} */
+.zorar {
+    width: 60%;
+    height: 45px;
+    /* margin-left: 50px; */
+    padding-top: 3px;
+    background-color: var(--color1);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 80px;
+    transition: all 0.5s;
+    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.zorar:hover {
+    background-color: var(--color3);
+    color: #ffffff;
+}
+
+.login-acc{
+    margin-top: 20px;
+    color: black;
+}
+
+.pass-cont {
+    position: relative;
+}
+
+.pass-cont i {
+    color: var(--color2);
+    position: absolute;
+    top: 20px;
+    right: 55px;
+}
+
+@media(max-width:700px) {
+    .main {
+        width: 90%;
+        padding: 10px 10px;
+        margin-left: 0px;
+
+
+
+    }
+}
